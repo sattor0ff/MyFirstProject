@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+.header{
+    padding: 20px;
+    background-color: rgb(155, 26, 26);
+    display: flex;
+    justify-content: center;
+}.header ul{
+    list-style-type: none;
+}
+.header ul li{
+    padding: 0px 40px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: large;
+}
+a:hover{
+    color: rgb(66, 66, 64);
+}
+.container{ 
+    background-image: url(../images/cyperpunksamurai.jpg);
+    background-size: 100%;
+}
+
+.cont2{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.body1 h1{
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+    width: 100%; 
+}
+.body1 img{
+    width: 26.6%;
+    margin: 20px;
+    border-radius: 20px;
+}
+.body2 img{
+    margin: 20px;
+    width: 26.6%;
+    border-radius: 20px;
+}
+.body3 img{
+    margin: 20px;
+    width: 26.6%;
+    border-radius: 20px;
+}
+#h1picture{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px #000;
+    animation: color 8s infinite;
+}
+@keyframes color{
+    0%{color: blue;}
+    10%{color: blueviolet;}
+    20%{color: red;}
+    30%{color: green;}
+    40%{color: yellow;}
+    50%{color: gray;}
+    60%{color: purple;}
+    70%{color: cyan;}
+    80%{color: coral;}
+    90%{color: orangered;}
+    100%{color: orange;}
+}

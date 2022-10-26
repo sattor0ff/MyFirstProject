@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+.header{
+    padding: 20px;
+    background-color: rgb(155, 26, 26);
+    display: flex;
+    justify-content: center;
+}.header ul{
+    list-style-type: none;
+}
+.header ul li{
+    padding: 0px 40px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: large;
+}
+a:hover{
+    color: rgb(66, 66, 64);
+}
+.container{ 
+    background-image: url(../images/tenta.jpg);
+    background-repeat: repeat;
+}
+
+.cont2{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.body1 h1, .body2 h1, .body3 h1{
+    padding: 20px;
+}
+.body1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    margin: 40px;
+    text-shadow: 2px 2px 4px #000;
+    animation: color1 3s infinite;
+}
+.body1 audio{
+    width: 80%;
+    margin: 15px;
+    padding-top: 10px;
+}
+.body2{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    margin: 40px;
+    text-shadow: 2px 2px 4px #000;
+    animation: color1 3s infinite;
+}
+.body2 audio{
+    width: 80%;
+    margin: 15px;
+    padding-top: 10px;
+}
+.body3{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    margin: 40px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 4px #000;
+    animation: color1 3s infinite;
+}
+@keyframes color1{
+    50%{color: rgb(229, 255, 0);}
+    100%{color: red;}  
+}
+.body3 audio{
+    width: 80%;
+    margin: 15px;
+    padding-top: 10px; 
+}
+
+
+#h1audio{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px #000;
+    animation: color 8s infinite;
+    text-align: center;
+    margin: 40px;
+}
+@keyframes color{
+    0%{color: blue;}
+    10%{color: blueviolet;}
+    20%{color: red;}
+    30%{color: green;}
+    40%{color: yellow;}
+    50%{color: gray;}
+    60%{color: purple;}
+    70%{color: cyan;}
+    80%{color: coral;}
+    90%{color: orangered;}
+    100%{color: orange;}
+}

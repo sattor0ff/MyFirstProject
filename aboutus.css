@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.header{
+    padding: 20px;
+    background-color: rgb(155, 26, 26);
+    display: flex;
+    justify-content: center;
+}.header ul{
+    list-style-type: none;
+}
+.header ul li{
+    padding: 0px 40px;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: large;
+}
+a:hover{
+    color: rgb(66, 66, 64);
+}
+.container{ 
+    background-image: url(../images/wdforfon.jpg);
+    background-repeat: repeat-y;
+}
